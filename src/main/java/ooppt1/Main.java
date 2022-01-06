@@ -140,15 +140,67 @@ public class Main {
 //        calculator = new Calculator(floor, carpet);
 //        System.out.println("Total = " + calculator.getTotalCost());
 
-        Carpet carpet = new Carpet(3.5);
+//        Carpet carpet = new Carpet(3.5);
+//
+//        Floor floor = new Floor(2.75,4.0);
+//        Calculator calculator = new Calculator(floor, carpet);
+//        System.out.println("Total = " + calculator.getTotalCost());
+//        carpet = new Carpet(1.5);
+//        floor = new Floor(5.4,4.5);
+//        calculator = new Calculator(floor,carpet);
+//        System.out.println("Total = " + calculator.getTotalCost());
 
-        Floor floor = new Floor(2.75,4.0);
-        Calculator calculator = new Calculator(floor, carpet);
-        System.out.println("Total = " + calculator.getTotalCost());
-        carpet = new Carpet(1.5);
-        floor = new Floor(5.4,4.5);
-        calculator = new Calculator(floor,carpet);
-        System.out.println("Total = " + calculator.getTotalCost());
+//        ComplexNumbers one = new ComplexNumbers(1.0,1.0);
+//        ComplexNumbers number = new ComplexNumbers(2.5,-1.5);
+//        one.add(1,1);
+//        System.out.println("One Real : " + one.getReal());
+//        System.out.println("One imaginary : " + one.getImaginary());
+//        one.subtract(number);
+//        System.out.println("One Real --: " + one.getReal());
+//        System.out.println("One imaginary -- : " + one.getImaginary());
+//        number.subtract(one);
+//        System.out.println();System.out.println("One Real ------: " + number.getReal());
+//        System.out.println("One imaginary ------ : " + number.getImaginary());
+
+//        Animal animal = new Animal("Animal",1,1,5,5);
+//        Dog dog = new Dog("Chow chow",1,1,2,4,30,1,"long");
+//        dog.eat();
+//        dog.walk();
+//        dog.run();
+//        Car2 car2 = new Car2("Ka",0,"Ford","diesel","kkk9090",2011,"blue");
+//        System.out.println(car2.getVelocity());
+//        System.out.println(car2.increaseVelocity(200));
+//
+//        System.out.println(car2.decreaseVelocity(100));
+//        System.out.println(car2.getVelocity());
+
+//        Corolla corolla = new Corolla("corolla",0.0,"honda","gas",
+//                "jjj0000",2020,"blue",0);
+//        corolla.increaseVelocity(50);
+//        System.out.println(corolla.getVelocity());
+//        System.out.println(corolla.changingGears());
+
+//        Circle circle = new Circle(3.75);
+//        System.out.println("Circle.radius = " + circle.getRadius());
+//        System.out.println("circle.area = " + circle.getArea());
+//
+//        Cylinder cylinder = new Cylinder(5.55,7.25);
+//        System.out.println("cylinder.radius = " + cylinder.getRadius());
+//        System.out.println("cylinder.height = " + cylinder.getHeight());
+//        System.out.println("cylinder.area = " + cylinder.getArea());
+//        System.out.println("cylinder.volume =" + cylinder.getVolume());
+
+        Rectangle2 rectangle2 = new Rectangle2(5,10);
+        System.out.println("rectangle.width = " + rectangle2.getWidth());
+        System.out.println("rectangle.length = " + rectangle2.getLength());
+        System.out.println("rectangle.area = " + rectangle2.getArea());
+        Cuboid cuboid = new Cuboid(5,10,5);
+        System.out.println("cuboid.width = " + cuboid.getWidth());
+        System.out.println("cuboid.height = " + cuboid.getHeight());
+        System.out.println("cuboid.length = " + cuboid.getLength());
+        System.out.println("cuboid.area = " + cuboid.getArea());
+        System.out.println("cuboid.height = " + cuboid.getHeight());
+        System.out.println("cuboid.volume = " + cuboid.getVolume());
 
 //        Animal animal = new Animal("Animal",1,1,5,5);
 //        Dog dog = new Dog("York",8,20,2,4,20,1,"long silkuy" );

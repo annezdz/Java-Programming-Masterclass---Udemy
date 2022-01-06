@@ -12,7 +12,6 @@ public class Outlander extends Car1{
     public void accelerate(int rate) {
         int newVelocity = getCurrentVelocity() + rate;
         if(newVelocity == 0) {
-            stop();
             changeGear(1);
         } else if (newVelocity > 0 && newVelocity <= 10) {
             changeGear(1);
